@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:desktop": "cypress open --config-file cypress.config.js",
+    "cy:open:mobile": "cypress open --config-file cypress-mobile.config.js",
+    "cy:run:desktop": "cypress run --config-file cypress.config.js",
+    "cy:run:mobile": "cypress run --config-file cypress-mobile.config.js",
+    "cy:open:desktop:edge": "cypress open --config-file cypress.config.js --browser edge",
+    "cy:open:mobile:edge": "cypress open --config-file cypress-mobile.config.js --browser edge",
+    "cy:run:desktop:edge": "cypress run --config-file cypress.config.js --browser edge",
+    "cy:run:mobile:edge": "cypress run --config-file cypress-mobile.config.js --browser edge"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0"
+  }
+}

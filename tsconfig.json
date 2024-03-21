@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    // be explicit about types included
+    // to avoid clashing with Jest types
+    "types": ["cypress"]
+  },
+  "include": ["**/*.ts", "cypress.config.js", "cypress/support/commands.js", "cypress/e2e/login.cy.js", "cypress/support/e2e.js"]
+}
